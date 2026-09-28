@@ -97,4 +97,4 @@ We designed for V<sub>ref</sub> = 1.2 V, but the highest value of V<sub>ref</sub
 
 ### Verifying the Circuit
 
-1. **Equal voltages at the VCVS inputs.** The two inputs of the VCVS should be at the same voltage, so `v(qp1)` and `v(ra1)` should be equal (see the circuit diagram).
+1.**Equal voltages at the VCVS inputs.** The two inputs of the VCVS should be at the same voltage, so `v(qp1)` and `v(ra1)` should be equal (see the circuit diagram).
