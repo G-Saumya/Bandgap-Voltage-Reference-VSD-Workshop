@@ -20,8 +20,8 @@ The BGR consists of four main blocks:
 ### Summary
 
 * **Day 1:** BGR generates a ~1.2 V reference by cancelling CTAT and PTAT temperature dependencies.
-* **Day 2:** $V_{BE}$ of a BJT provides the **CTAT** voltage.
-* **Day 3:** Two BJTs with $1:N$ area ratio generate **PTAT** voltage: $\Delta V_{BE}=V_T\ln(N)$
+* **Day 2 (CTAT Voltage Generation):** The base-emitter voltage $V_{BE}$ of a diode-connected BJT has a negative temperature coefficient, making it CTAT. BJTs are commonly used because they can be integrated into CMOS processes. The $V_{BE}$ temperature slope depends on the device and current density.
+* **Day 3 (PTAT Voltage Generation):** Two BJTs with an emitter-area ratio of $1:N$, carrying the same current, produce a voltage difference $\Delta V_{BE}=V_T\ln(N)$ across $R_1$. Since $V_T=\dfrac{kT}{q}$, this voltage is PTAT. The resistor is designed using $R_1=\dfrac{V_T\ln(N)}{I}$, so $R_1$ depends on the bias current and the BJT area ratio $N$.
 * **Day 4:** Self-biased current mirror generates a supply-independent current; $R_S$ sets the current level.
 * **Day 5:** CTAT and PTAT components are added, $V_{ref}=V_{BE3}+I_3R_2$, where $R_2$ is chosen for zero temperature coefficient.
 * **Day 6:** Start-up circuit removes the zero-current state at power-up and turns OFF during normal operation.
