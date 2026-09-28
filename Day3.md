@@ -109,6 +109,3 @@ R_1=\frac{26mV\times\ln(8)}{10\mu A}
 \approx5.4\,k\Omega
 $$
 
-So, **\(R_1\approx5.4\,k\Omega\)**.
-
-**In short:** Higher current → smaller \(R_1\) → smaller area but higher power; lower current → larger \(R_1\) → larger area but lower power.
