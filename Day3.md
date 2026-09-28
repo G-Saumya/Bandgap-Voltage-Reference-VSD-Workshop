@@ -57,7 +57,7 @@ $$
 Therefore,
 
 $$
-\frac{dV_T}{dT}=\frac{k}{q}\approx86\,\mu V/K
+\frac{dV_T}{dT}=\frac{k}{q}\approx86\\mu V/K
 $$
 
 ### Nature of the different voltages
