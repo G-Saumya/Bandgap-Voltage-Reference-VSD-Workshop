@@ -69,6 +69,32 @@ $$
 V_{ref}\approx1.2\,V
 $$
 
-## Lab
+## Lab 6: BGR Simulation
 
-*To be added soon.*
+### Circuit
+
+The circuit used for the simulation is shown below.
+
+<img width="1063" height="892" alt="BGR lab circuit" src="https://github.com/user-attachments/assets/836efa19-14d1-4857-a3f5-120fa9d5a789" />
+
+### SPICE Code
+
+The SPICE code spans the two images below.
+
+<img width="1187" height="891" alt="SPICE code part 1" src="https://github.com/user-attachments/assets/0387a3a8-2d74-40fa-9f0e-d62c548e39c6" />
+
+<img width="811" height="803" alt="SPICE code part 2" src="https://github.com/user-attachments/assets/5ab8ed2f-8ce7-4f21-91c5-72649b3c2e74" />
+
+### BGR Response
+
+The BGR response is shown below.
+
+<img width="1848" height="886" alt="BGR response" src="https://github.com/user-attachments/assets/81d1451a-0f4e-4f40-a842-e70d7f1c976a" />
+
+<img width="511" height="207" alt="Vref measurements" src="https://github.com/user-attachments/assets/c49f9e1a-fe82-4a6d-ae91-ae8f20c008ef" />
+
+We designed for V<sub>ref</sub> = 1.2 V, but the highest value of V<sub>ref</sub> in the response is **1.23581 V**. The curve has the expected umbrella shape, as discussed in the theory. The peak-to-peak variation of V<sub>ref</sub> is **3.38 mV**.
+
+### Verifying the Circuit
+
+1. **Equal voltages at the VCVS inputs.** The two inputs of the VCVS should be at the same voltage, so `v(qp1)` and `v(ra1)` should be equal (see the circuit diagram).
