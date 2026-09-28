@@ -87,7 +87,7 @@ The voltage vs temperature curve is shown below.
 
 <img width="767" height="471" alt="VBE vs temperature slope" src="https://github.com/user-attachments/assets/044f6d5e-ff08-4287-9b4e-c8bb71a319cd" />
 
-- Slope measured from simulation: **-1.723 mV/K**
+- Slope measured from simulation: **-1.70 mV/K**
 - Slope from theoretical calculation: **-1.88 mV/K**
 
 ### Effect of the Number of BJTs
