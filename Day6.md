@@ -33,6 +33,3 @@ Once the self-biased loop is running, the **net2 voltage decreases**.
 
 When net2 is no longer sufficiently high relative to net6 to keep $M_{P5}$ ON, $M_{P5}$ turns OFF.
 
-## Lab
-
-Will be added soon.
