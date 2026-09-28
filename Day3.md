@@ -104,6 +104,7 @@ $$
 
 using $V_T\approx 26\,mV$ at room temperature, 
 
+
 $$
 R_1=\frac{26mV\times\ln(8)}{10\mu A}
 \approx5.4\,k\Omega
