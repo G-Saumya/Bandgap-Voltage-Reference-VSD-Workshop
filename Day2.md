@@ -63,29 +63,52 @@ As the number of BJTs increases, the slope becomes more and more negative. Addin
 
 As seen above, as the collector current is increased, the current density increases and the slope becomes less and less negative.
 
-LAB 4 COMPONENT
-CIRCUIT
-The circuit used for the simulation is shown below.
-<img width="207" height="290" alt="image" src="https://github.com/user-attachments/assets/bce1faf1-58bf-484b-88a7-407b616c2f47" />
-SPICE code
-Below is the SPICE code for the CTAT voltage generation circuit.
-<img width="955" height="530" alt="image" src="https://github.com/user-attachments/assets/5aea152a-a978-4521-85e7-1118430dcc13" />
-V_BE vs Temperature
-The voltage vs temperature curve is shown below.
-<img width="1591" height="856" alt="image" src="https://github.com/user-attachments/assets/3ce17f31-acda-4189-903d-3d999b38eae8" />
-<img width="767" height="471" alt="image" src="https://github.com/user-attachments/assets/044f6d5e-ff08-4287-9b4e-c8bb71a319cd" />
+---
 
-Slope measured from simulation: -1.723 mV/K
-Slope from theoretical calculation: -1.88 mV/K
-Effect of the n Number of BJTs
+## Lab: CTAT Voltage Generation
+
+### Circuit
+
+The circuit used for the simulation is shown below.
+
+<img width="207" height="290" alt="Lab circuit" src="https://github.com/user-attachments/assets/bce1faf1-58bf-484b-88a7-407b616c2f47" />
+
+### SPICE Code
+
+Below is the SPICE code for the CTAT voltage generation circuit.
+
+<img width="955" height="530" alt="SPICE code" src="https://github.com/user-attachments/assets/5aea152a-a978-4521-85e7-1118430dcc13" />
+
+### V<sub>BE</sub> vs Temperature
+
+The voltage vs temperature curve is shown below.
+
+<img width="1591" height="856" alt="VBE vs temperature" src="https://github.com/user-attachments/assets/3ce17f31-acda-4189-903d-3d999b38eae8" />
+
+<img width="767" height="471" alt="VBE vs temperature slope" src="https://github.com/user-attachments/assets/044f6d5e-ff08-4287-9b4e-c8bb71a319cd" />
+
+- Slope measured from simulation: **-1.723 mV/K**
+- Slope from theoretical calculation: **-1.88 mV/K**
+
+### Effect of the Number of BJTs
+
 The voltage vs temperature curve for m = 8 (BJT multiplier) is shown below.
-<img width="697" height="538" alt="image" src="https://github.com/user-attachments/assets/9053988d-285e-463c-810c-d019f81edd30" />
-The slope measured from simulation is -1.97 mV/K, which is more negative than for a single BJT, in line with the discussion above.
-<img width="538" height="90" alt="image" src="https://github.com/user-attachments/assets/f12cfe41-faa7-45f9-a11e-47352a003be1" />
-Effect of the collector current
+
+<img width="697" height="538" alt="VBE vs temperature, m = 8" src="https://github.com/user-attachments/assets/9053988d-285e-463c-810c-d019f81edd30" />
+
+The slope measured from simulation is **-1.97 mV/K**, which is more negative than for a single BJT, in line with the discussion above.
+
+<img width="538" height="90" alt="Slope for m = 8" src="https://github.com/user-attachments/assets/f12cfe41-faa7-45f9-a11e-47352a003be1" />
+
+### Effect of the Collector Current
+
 The voltage vs temperature curve for a varying current is shown below. The current was varied from 1.25 µA to 10 µA.
-<img width="1845" height="877" alt="image" src="https://github.com/user-attachments/assets/5e8ada74-1772-494c-837e-1a8d1d36a910" />
-Slope at current 1.25uA is -1.929mV/k.
-Slope at current 10uA is -1.757mV/k.
-<img width="665" height="335" alt="image" src="https://github.com/user-attachments/assets/2cf45743-54e4-4b2c-a60b-fa15ca53801d" />
+
+<img width="1845" height="877" alt="VBE vs temperature for varying current" src="https://github.com/user-attachments/assets/5e8ada74-1772-494c-837e-1a8d1d36a910" />
+
+- Slope at 1.25 µA: **-1.929 mV/K**
+- Slope at 10 µA: **-1.757 mV/K**
+
+<img width="665" height="335" alt="Slope for varying current" src="https://github.com/user-attachments/assets/2cf45743-54e4-4b2c-a60b-fa15ca53801d" />
+
 The slope becomes less negative as the current increases, in line with the discussion above.
