@@ -44,7 +44,7 @@ Thanks to **VSD (VLSI System Design)** for conducting the workshop and providing
 
 ## 👤 Author
 
-**G**
+**G Saumya**
 
 ---
 
