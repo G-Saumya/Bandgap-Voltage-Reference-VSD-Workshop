@@ -109,3 +109,5 @@ R_1=\frac{26mV\times\ln(8)}{10\mu A}
 \approx5.4\,k\Omega
 $$
 
+## Lab
+Have to be added.
