@@ -63,6 +63,3 @@ The second issue, the start-up problem, will be addressed later.
 
 <img width="957" height="458" alt="image" src="https://github.com/user-attachments/assets/54b9b3a4-5071-4d43-8fc8-1c8dbef5509e" />
 
-## Lab
-
-Will be added soon.
