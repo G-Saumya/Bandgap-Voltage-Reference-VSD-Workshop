@@ -102,7 +102,7 @@ $$
 I=10\,\mu A,\qquad N=8
 $$
 
-using \(V_T\approx26\,mV\) at room temperature,
+using $V_T\approx 26\,mV$ at room temperature, 
 
 $$
 R_1=\frac{26mV\times\ln(8)}{10\mu A}
