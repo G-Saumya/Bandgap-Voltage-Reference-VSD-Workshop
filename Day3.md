@@ -65,3 +65,44 @@ $$
 * **\(V\)** — CTAT in nature, with a **smaller negative temperature slope**.
 * **\(V_1\)** — CTAT in nature, with a **larger negative temperature slope**.
 * **\(V-V_1\)** — PTAT in nature because it is proportional to \(V_T\ln(N)\).
+
+Design of R1 Resistance
+<img width="940" height="385" alt="image" src="https://github.com/user-attachments/assets/59cac808-e5de-4532-a83e-9ab3f6a909c9" />
+### Choosing the Value of \(R_1\)
+
+The value of **\(R_1\)** is mainly determined by the **power consumption** allowed in the circuit and the available **silicon area**.
+
+Since the voltage across \(R_1\) is the PTAT voltage,
+
+$$
+V_{R1}=V_T\ln(N)
+$$
+
+and the current through it is \(I\), the required resistance is
+
+$$
+\boxed{R_1=\frac{V_T\ln(N)}{I}}
+$$
+
+From this relationship:
+
+* **If the circuit current \(I\) increases**, \(R_1\) becomes smaller. A smaller resistor generally requires **less silicon area**.
+* **If the circuit current \(I\) decreases**, \(R_1\) needs to be larger, which generally means **more silicon area**.
+* The value of \(R_1\) also changes with **\(N\)**, the area ratio between Q1 and Q2. Increasing \(N\) increases \(\ln(N)\), and therefore increases the required resistance.
+
+For example, when
+
+$$
+I=10\,\mu A,\qquad N=8
+$$
+
+using \(V_T\approx26\,mV\) at room temperature,
+
+$$
+R_1=\frac{26mV\times\ln(8)}{10\mu A}
+\approx5.4\,k\Omega
+$$
+
+So, **\(R_1\approx5.4\,k\Omega\)**.
+
+**In short:** Higher current → smaller \(R_1\) → smaller area but higher power; lower current → larger \(R_1\) → larger area but lower power.
