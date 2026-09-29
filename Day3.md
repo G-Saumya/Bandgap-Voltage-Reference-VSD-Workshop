@@ -126,11 +126,42 @@ Below is the SPICE code for the PTAT voltage generation circuit.
 
 ### Generating the PTAT Voltage
 
-<img width="1833" height="882" alt="image" src="https://github.com/user-attachments/assets/432177df-b7b4-4c8c-9e5d-dac0a07c7ad4" />
-<img width="357" height="63" alt="image" src="https://github.com/user-attachments/assets/8831a604-8a64-46d9-9ad0-d13bdb782ee0" />
-Slope of Q1
-<img width="1837" height="878" alt="image" src="https://github.com/user-attachments/assets/79b865c3-c260-4fd5-96c8-618769cf214a" />
-Ideally the v(q1) and v(ra1) must be same because we are using a VCVS Circuit here.
-<img width="1840" height="887" alt="image" src="https://github.com/user-attachments/assets/defa258d-0197-421e-ad92-983fbd273130" />
-The idea of PTAT generation is to take the difference between two unequal CTAT voltages. The voltage vs temperature curve below shows the two CTAT voltages: V(qp2), the emitter voltage of Q2, and V(ra1), the node at the top of the 5.15 kΩ resistor R1.
+<img width="1833" height="882" alt="PTAT generation waveform" src="https://github.com/user-attachments/assets/432177df-b7b4-4c8c-9e5d-dac0a07c7ad4" />
 
+<img width="357" height="63" alt="Measurement" src="https://github.com/user-attachments/assets/8831a604-8a64-46d9-9ad0-d13bdb782ee0" />
+
+**Slope of Q1**
+
+<img width="1837" height="878" alt="Slope of Q1" src="https://github.com/user-attachments/assets/79b865c3-c260-4fd5-96c8-618769cf214a" />
+
+Ideally, `v(q1)` and `v(ra1)` must be the same, because we are using a VCVS circuit here.
+
+<img width="1840" height="887" alt="V(qp2) and V(ra1)" src="https://github.com/user-attachments/assets/defa258d-0197-421e-ad92-983fbd273130" />
+
+The idea of PTAT generation is to take the difference between two unequal CTAT voltages. The voltage vs temperature curve above shows the two CTAT voltages: `V(qp2)`, the emitter voltage of Q2, and `V(ra1)`, the node at the top of the 5.15 kΩ resistor R1.
+
+<img width="1840" height="892" alt="PTAT voltage vs temperature" src="https://github.com/user-attachments/assets/59794f98-97b8-4176-b0dd-200f4ac7b71a" />
+
+The plot has a positive slope, so the voltage has a positive temperature coefficient.
+
+### Branch Currents
+
+The design uses the same current through $Q_1$ and $Q_2$. The current is given by:
+
+$$
+I=\frac{V_T\ln(8)}{R_1}
+$$
+
+For $T=300\,K$, $V_T=0.026\,V$, and $R_1=5.15\,k\Omega$:
+
+$$
+I\approx10.5\,\mu A
+$$
+
+This is the theoretical current. The simulation plot below confirms that the currents in both branches are approximately equal.
+
+<img width="698" height="542" alt="Branch currents" src="https://github.com/user-attachments/assets/d8048540-6613-47d4-9a97-214370281c7d" />
+
+<img width="296" height="41" alt="Current measurement" src="https://github.com/user-attachments/assets/9ea78c7d-661a-480e-9532-61c6110fcb5c" />
+
+At 27 °C (300 K), the simulated current is about **10.88 µA**, which is close to the theoretically calculated value.
