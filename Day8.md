@@ -43,7 +43,7 @@ The circuit used for the simulation is shown below.
 <img width="832" height="598" alt="image" src="https://github.com/user-attachments/assets/13ff2377-c994-4a63-83fd-cfd2863d06a1" />
 <img width="908" height="233" alt="image" src="https://github.com/user-attachments/assets/4e6a1f34-0151-47c7-9f2d-b0a82306affd" />
 
-DC simulation: tt vs ff vs ss corner
+###DC simulation: tt vs ff vs ss corner
 #### tt Corner
 
 <img width="1597" height="867" alt="tt corner SPICE code" src="https://github.com/user-attachments/assets/db5a93df-615b-48fe-90db-cd16b164540b" />
