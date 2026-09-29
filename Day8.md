@@ -1,31 +1,38 @@
-Day 8: Complete BGR Pre-layout Simulation(Lab 7 Component)
-Concepts covered: 
-1) Process corners (tt, ff, ss) 
-2) Pre-layout simulation of the complete bandgap voltage reference across these corners
+# Day 8: Complete BGR Pre-layout Simulation (Lab 7 Component)
 
-Process Corners: TT, FF and SS
+## Concepts Covered
+
+1. Process corners (tt, ff, ss)
+2. Pre-layout simulation of the complete bandgap voltage reference across these corners
+
+## Process Corners: TT, FF, and SS
 
 Manufacturing variations cause transistor parameters to differ slightly from their nominal values. These variations are represented using process corners, which model different extremes of the fabrication process.
 
 The two letters indicate the NMOS and PMOS process conditions:
 
-Corner	NMOS	PMOS	Meaning
-TT	Typical	Typical	Nominal process
-FF	Fast	Fast	Both devices are faster than nominal
-SS	Slow	Slow	Both devices are slower than nominal
-FF: Typically has lower \(V_{TH}\) and higher carrier mobility, resulting in higher current for the same bias.
-SS: Typically has higher \(V_{TH}\) and lower carrier mobility, resulting in lower current for the same bias.
+| Corner | NMOS | PMOS | Meaning |
+|--------|------|------|---------|
+| TT | Typical | Typical | Nominal process |
+| FF | Fast | Fast | Both devices are faster than nominal |
+| SS | Slow | Slow | Both devices are slower than nominal |
+
+- **FF:** Typically has lower $V_{TH}$ and higher carrier mobility, resulting in higher current for the same bias.
+- **SS:** Typically has higher $V_{TH}$ and lower carrier mobility, resulting in lower current for the same bias.
 
 Other combinations such as FS and SF are called skewed corners, but they are not considered in this lab.
 
-Why Process Corners Matter in a BGR
+## Why Process Corners Matter in a BGR
 
 A BGR should remain stable despite PVT (Process, Voltage, and Temperature) variations. Therefore, it must be tested across different process corners.
 
-Changes in transistor, resistor, and BJT parameters can affect the bias current and the CTAT–PTAT cancellation, causing changes in the \(V_{ref}\) vs. temperature curve.
+Changes in transistor, resistor, and BJT parameters can affect the bias current and the CTAT–PTAT cancellation, causing changes in the $V_{ref}$ vs. temperature curve.
 
-The simulations below compare the BGR's \(V_{ref}\) across the TT, FF, and SS process corners.
+The simulations below compare the BGR's $V_{ref}$ across the TT, FF, and SS process corners.
 
+## Lab
+
+*To be added soon.*
 ## Lab 7: Process Corner Analysis
 
 ### Circuit
