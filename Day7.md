@@ -111,6 +111,9 @@ Both voltages stay at the same level across the whole temperature sweep.
 
 The currents in the branches `Vid1` and `Vid2` should be the same.
 
+<img width="871" height="453" alt="image" src="https://github.com/user-attachments/assets/76edc118-eae2-42ed-b754-80285e2a8acd" />
+
+
 #### 3. CTAT and PTAT Voltages Cancel
 
 The CTAT voltage is the V<sub>BE</sub> of Q3.
