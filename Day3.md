@@ -126,15 +126,11 @@ Below is the SPICE code for the PTAT voltage generation circuit.
 
 ### Generating the PTAT Voltage
 
-The basic idea of PTAT generation is to subtract two CTAT voltages with different temperature dependencies. The graph below shows these two voltages:
+<img width="1833" height="882" alt="image" src="https://github.com/user-attachments/assets/432177df-b7b4-4c8c-9e5d-dac0a07c7ad4" />
+<img width="357" height="63" alt="image" src="https://github.com/user-attachments/assets/8831a604-8a64-46d9-9ad0-d13bdb782ee0" />
+Slope of Q1
+<img width="1837" height="878" alt="image" src="https://github.com/user-attachments/assets/79b865c3-c260-4fd5-96c8-618769cf214a" />
+Ideally the v(q1) and v(ra1) must be same because we are using a VCVS Circuit here.
+<img width="1840" height="887" alt="image" src="https://github.com/user-attachments/assets/defa258d-0197-421e-ad92-983fbd273130" />
+The idea of PTAT generation is to take the difference between two unequal CTAT voltages. The voltage vs temperature curve below shows the two CTAT voltages: V(qp2), the emitter voltage of Q2, and V(ra1), the node at the top of the 5.15 kΩ resistor R1.
 
-\(V(qp2)\): emitter voltage of \(Q_2\)
-\(V(ra1)\): voltage at the top of the \(5.15\,k\Omega\) resistor \(R_1\)
-
-Although both voltages decrease with temperature (CTAT), they have different slopes. Their difference therefore increases with temperature, producing a PTAT voltage:
-
-V
-PTAT
-	​
-
-=V(qp2)−V(ra1)
