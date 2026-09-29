@@ -30,9 +30,6 @@ Changes in transistor, resistor, and BJT parameters can affect the bias current 
 
 The simulations below compare the BGR's $V_{ref}$ across the TT, FF, and SS process corners.
 
-## Lab
-
-*To be added soon.*
 ## Lab 7: Process Corner Analysis
 
 ### Circuit
@@ -42,6 +39,10 @@ The circuit used for the simulation is shown below.
 <img width="862" height="627" alt="Lab 7 circuit" src="https://github.com/user-attachments/assets/3d29a9ee-c925-4cfd-bfbc-680a39751cb3" />
 
 ### SPICE Code: DC Simulation Across tt, ff, and ss Corners
+<img width="891" height="665" alt="image" src="https://github.com/user-attachments/assets/5c180b6b-7660-4995-91b1-3f0c2d40b951" />
+<img width="832" height="598" alt="image" src="https://github.com/user-attachments/assets/13ff2377-c994-4a63-83fd-cfd2863d06a1" />
+<img width="908" height="233" alt="image" src="https://github.com/user-attachments/assets/4e6a1f34-0151-47c7-9f2d-b0a82306affd" />
+
 
 #### tt Corner
 
