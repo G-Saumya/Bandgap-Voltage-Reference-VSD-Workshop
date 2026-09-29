@@ -95,5 +95,3 @@ The temperature coefficient for this corner is **45 ppm/°C**.
 | tt | 23.3 ppm/°C |
 | ff | 10.1 ppm/°C |
 | ss | 45 ppm/°C |
-
-The reference voltage stays within a tight band across process corners and the full -40°C to 125°C range, confirming the BGR design is robust to process variation as well as temperature.
