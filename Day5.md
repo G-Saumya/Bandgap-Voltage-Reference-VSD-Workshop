@@ -124,6 +124,3 @@ $$
 \boxed{R_2\approx9R_1}
 $$
 
-## Lab
-
-Will be added soon.
